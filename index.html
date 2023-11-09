@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzimart</title>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="item"><h2>Gonzimart</h2></div>
+        <div class="item" id="item">
+            <div class="dropdown"><button><a href="#">All Categories <i class="bi bi-caret-down-fill"></i></a></button>
+                <ul id="list" >
+                    <li><a href="#">Mens wear</a></li>
+                    <li><a href="#">Women wear</a></li>
+                    <li><a href="#">Kids wear</a></li>
+                </ul>   
+            </div>
+            <span class="search"><input type="text" placeholder="Search for products" ><button type="submit"><i class="bi bi-search"></i></button></span>
+        </div>
+
+    </div>
+
+    <div class="nav-container">
+        <div class="items firstitem"><a href=""><i class="bi bi-list first"></i>
+            <select class="category">
+            <option value="BROWSE CATEGORY">BROWSE CATEGORY</option>
+            <option value="Mens">Mens</option>
+            <option value="Womens">Womens</option>
+            <option value="Kids">Kids</option>
+          </select></a></div>
+        <div class="items home"><a href="#">HOME <i class="bi bi-caret-down-fill"></i></a></div>
+        <div class="items"><a href="#">SHOP <i class="bi bi-caret-down-fill"></i></a></div>
+        <div class="items"><a href="#">BLOG <i class="bi bi-caret-down-fill"></i></a></div>
+        <div class="items"><a href="#">CONTACT US </a></div>
+        <div class="items login"><a href="#">LOGIN / REGISTER</a></div>
+        <div class="items"><a href="#"><i class="bi bi-search"></i></a></div>
+        <div class="items"><a href="#"><i class="bi bi-heart"></i></a></div>
+        <div class="items"><a href="#"><i class="bi bi-bag-check"></i></a></div>
+
+    </div>
+
+    <div class="main-container">
+
+        <div class="items"><img src="images/1.jpg" height="400px" ></div>
+        <div class="items4">
+            <h3>WINTER SALE 50% OFF</h3>
+            <h1>Design For Beauty</h1>
+            <h5>You Can Have Anything You Want In Your Life You Dress For It.</h5>
+            <button>All Collections</button>
+        </div>
+    </div>
+
+    <div class="view-container">
+        <div class="items"><img src="images/4.jpg" width="250px" height="250px"></div>
+        <div class="items"><img src="images/4.jpg" width="250px" height="250px"></div>
+        <div class="items"><img src="images/4.jpg" width="250px" height="250px"></div>
+    </div>
+    <div class="products"><p>Best Sell Products</p></div>
+
+    <div class="product-container">
+        <div class="items"><button class="btn">All</button></div>
+        <div class="items"><button>Casual Shirt</button></div>
+        <div class="items"><button>Formal Shirt</button></div>
+        <div class="items"><button>T-Shirt</button></div>
+        <div class="items"><button>Hoddi</button></div>
+        <div class="items"><button>Linde Wear</button></div>
+        <div class="items"><button>Pant</button></div>
+    </div>
+
+    <div class="product-list-container">
+        <div class="items"><img src="images/5.webp"   width="220px" height="240px">
+            <div class="items5"><button id="btn1" onmouseover="show()" onmouseout="hide()">Add to cart</button></div>
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div>
+        </div>
+        <div class="items"><img src="images/16984064598. Baggy Jeans starting at Rs.599.png" width="220px" height="240px">
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div>
+        </div>
+        <div class="items"><img src="images/s-nmp-try-this-original-imag5xe3sdhgg8sg.webp" width="220px" height="240px">
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div>
+        </div>
+        <div class="items"><img src="images/30-302672_girls-pants-hd-png-download.png" width="220px" height="240px">
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div>
+        </div>
+    </div>
+    
+    <div class="product-list-container2">
+        <div class="items"><img src="images/4.jpg" width="220px" height="240px">
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div></div>
+        <div class="items"><img src="images/4.jpg" width="220px" height="240px">
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div></div>
+        <div class="items"><img src="images/4.jpg" width="220px" height="240px">
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div></div>
+        <div class="items"><img src="images/4.jpg" width="220px" height="240px">
+            <div><p class="para">Black Jeans</p></div>
+            <div><p class="para1">$ 150.00</p></div></div>
+    </div>
+
+    <div class="items11"><button class="item10">Load More</button></div>
+    <div class="bdr"></div>
+    <div class="icon-container">
+        <div><i class="bi bi-truck"></i>
+            <p id="sprt">FREE SHIPPING</p>
+            <div id="str">*</div>
+            <div>Enyoj Free Shipping on all Orders</div>
+            <div class="str">No Minimum purchase Required</div>
+            
+            
+        </div>
+        <div><i class="bi bi-patch-question-fill"></i>
+            <p id="sprt">24/7 SUPPORT</p>
+            <div id="str">*</div>
+            <div>Our Team is Available 24/7 to Help</div>
+            <div class="str">With any Questions or Concerns</div>
+        </div>
+        <div><i class="bi bi-wallet-fill"></i>
+            <p id="sprt">MONEY BACK</p>
+            <div id="str">*</div>
+            <div>We Offer a 100% Money-Back</div>
+            <div class="str1">Guarantee For Your Satisfaction</div>
+        </div>
+    </div>
+
+    <div class="image-container">
+        <div class="img1"><img src="images/pexels-mateusz-dach-450035.jpg" width="500px" height="300px" alt=""></div>
+        <div class="img2">
+            <div><h5 id="h55">Sale Event</h5></div>
+            <h2>Winter Product</h2>
+            <h2>Limited Offer - $25</h2>
+            <div><h5>Until 12/12/23. Use code WHFSTU at Checkout</h5></div>
+            <div class="items12"><button class="item12">shop Now</button></div>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="products1"><h2>Customer Review</h2></div>
+        <h4>As women Value Our Health,We'er Here To Do What We do Best-Roll</h4>
+        <h4>Up Our Sleeves To get It Done Right</h4>
+        <h3>Alisha Jico</h3>
+    </div>
+    <div class="container2">
+        <div class="products2"><h2>Instagram With #September</h2></div>
+        <div class="container3">
+            <div class="img4"><img src="images/4.jpg" alt="" height="356px" width="300px"></div>
+            <div>
+                <div class="container4">
+                    <div id="img5"><img src="images/1.jpg" alt="" width="200px" height="171px"></div>
+                    <div id="img5"><img src="images/4.jpg" alt="" width="200px" height="171px"></div>
+                    <div id="img5"><img src="images/5.webp" alt="" width="200px" height="171px"></div>
+                </div>
+                <div class="container4">
+                    <div><img src="images/1.jpg" alt="" width="200px" height="171px"></div>
+                    <div><img src="images/4.jpg" alt="" width="200px" height="171px"></div>
+                    <div><img src="images/5.webp" alt="" width="200px" height="171px"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container5">
+        <div>
+            <h3 id="abt">About shop</h3>
+            <h5 id="abt">lorem ispum</h5>
+            <h5 id="abt">Hello@UXPER.com</h5>
+            <h5 id="abt">T(00)748</h5>
+        </div>
+        <div>
+            <h3 id="abt">Company</h3>
+            <h5 id="abt">About Us</h5>
+            <h5 id="abt">Careers</h5>
+            <h5 id="abt">Contact Us</h5>
+        </div>
+        <div>
+            <h3 id="abt">Customer Care</h3>
+            <h5 id="abt">Size Guide</h5>
+            <h5 id="abt">Help & FAQ's</h5>
+            <h5 id="abt">Return My Order</h5>
+        </div>
+        <div>
+            <h3 id="abt">Terms & policies</h3>
+            <h5 id="abt">Duties & Taxes</h5>
+            <h5 id="abt">Shipping Info</h5>
+            <h5 id="abt">Privacy Policy</h5>
+        </div>
+        <div>
+            <h3 id="abt">Follow Us</h3>
+            <h5 id="abt">Facebook</h5>
+            <h5 id="abt">Instagram</h5>
+            <h5 id="abt">Twitter</h5>
+        </div>
+    </div>
+    
+    
+   
+
+    <script src="js/main.js"></script>
+</body>
+</html>
